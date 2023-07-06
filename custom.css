@@ -1,0 +1,82 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.email__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__box {
+    background-color: #F5F7FA;
+    padding: 40px;
+    width: 656px;
+    height: inherit;
+}
+
+.email__content__upper {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.email__content__lower {
+    padding: 40px 40px 0px 40px;
+}
+
+.email__content__upper img {
+    width: 120px;
+}
+
+.email__inner__content h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.email__inner__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #46586B;
+    line-height: 24px;
+}
+
+.email__user__name {
+    padding-bottom: 10px;
+}
+
+.email__inner__content button {
+    background-color: #F68A29;
+    color: #fff;
+    width: 156px;
+    height: 48px;
+    border: none;
+    border-radius: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.email__content__lower p {
+    color: #46586B;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.email__content__lower .download {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media ( width <= 992px ) {
+    .email__inner__content button {
+        width: 100%;
+    }
+}
